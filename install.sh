@@ -4,7 +4,7 @@ clear
 # Set these to change the version of FantasyGold to install
 TARBALLURL="https://github.com/FantasyGold/FantasyGold-Core/releases/download/1.3.0/FantasyGold-1.3.0-Linux-x64.tar.gz"
 TARBALLNAME="FantasyGold-1.3.0-Linux-x64.tar.gz"
-FGCVERSION="1.2.4"
+FGCVERSION="1.3.0"
 
 # Check if we are root
 if [ "$(id -u)" != "0" ]; then
