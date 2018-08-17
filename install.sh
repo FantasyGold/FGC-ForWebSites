@@ -2,9 +2,9 @@
 clear
 
 # Set these to change the version of FantasyGold to install
-TARBALLURL="https://github.com/FantasyGold/FantasyGold-Core/releases/download/1.3.0/FantasyGold-1.3.0-Linux-x64.tar.gz"
-TARBALLNAME="FantasyGold-1.3.0-Linux-x64.tar.gz"
-FGCVERSION="1.3.0"
+TARBALLURL="https://github.com/FantasyGold/FantasyGold-Core/releases/download/v1.2.5/FantasyGold-1.2.5-Linux-x64.tar.gz"
+TARBALLNAME="FantasyGold-1.2.5-Linux-x64.tar.gz"
+FGCVERSION="1.2.5"
 
 # Check if we are root
 if [ "$(id -u)" != "0" ]; then
@@ -154,74 +154,12 @@ logtimestamps=1
 maxconnections=256
 externalip=${IP}
 bind=${IP}:57814
-addnode=18.218.69.84:57810
-addnode=18.222.88.20:57810
-addnode=18.188.230.37:57810
-addnode=45.56.104.241:57810
-addnode=172.104.152.61:57810
-addnode=80.211.188.25:57810
-addnode=45.76.131.138:57810
-addnode=159.89.128.75:57810
-addnode=209.250.236.200:57810
-addnode=199.247.13.241:57810
-addnode=108.61.87.124:57810
-addnode=45.63.64.205:57810
-addnode=138.68.225.190:57810
-addnode=8.9.11.67:57810
-addnode=104.236.95.172:57810
-addnode=149.28.42.218:57810
-addnode=159.65.72.255:57810
-addnode=18.216.52.206:57810
-addnode=89.47.161.171:57810
-addnode=80.209.224.171:57810
-addnode=144.76.38.145:57810
-addnode=18.191.6.184:57810
-addnode=173.230.141.205:57810
-addnode=217.69.3.8:57810
-addnode=45.79.66.44:57810
-addnode=198.13.47.101:57810
-addnode=104.207.134.81:57810
-addnode=173.199.115.226:57810
-addnode=178.62.204.40:57810
-addnode=45.32.215.41:57810
-addnode=207.246.125.20:57810
-addnode=165.227.106.45:57810
-addnode=8.12.17.243:57810
-addnode=188.166.116.194:57810
-addnode=63.209.33.1:57810
-addnode=140.82.15.110:57810
-addnode=45.77.85.29:57810
-addnode=207.148.7.121:57810
-addnode=188.187.188.194:57810
-addnode=35.194.84.154:57810
-addnode=35.186.174.191:57810
-addnode=35.230.173.242:57810
-addnode=35.199.27.31:57810
-addnode=104.200.28.221:57810
-addnode=23.239.31.167:57810
-addnode=66.228.47.113:57810
-addnode=139.162.125.201:57810
-addnode=176.223.128.203:57810
-addnode=217.163.23.44:57810
-addnode=146.71.79.203:57810
-addnode=212.237.19.177:57810
-addnode=95.179.129.17:57810
-addnode=80.240.17.186:57810
-addnode=206.189.167.173:57810
-addnode=81.169.214.103:57810
-addnode=85.217.171.181:57810
-addnode=104.238.161.88:57810
-addnode=213.52.129.183:57810
-addnode=138.197.216.71:57810
-addnode=198.58.115.246:57810
-addnode=172.105.224.65:57810
-addnode=172.245.36.202:57810
-addnode=45.33.8.12:57810
-addnode=144.202.100.185:57810
-addnode=184.75.221.43:57810
-addnode=85.90.245.195:57810
-addnode=178.79.190.143:57810
-addnode=95.96.104.94:57810
+addnode=45.33.49.18:57810
+addnode=45.33.115.240:57810
+addnode=45.79.203.106:57810
+addnode=45.79.151.214:57810
+addnode=176.58.126.105:57810
+addnode=139.162.190.155:57810
 EOL
 chmod 0600 $USERHOME/.fantasygold/fantasygold.conf
 chown -R $USER:$USER $USERHOME/.fantasygold
