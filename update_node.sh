@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Set these to the latest version of FantasyGold to update
-TARBALLURL="https://github.com/FantasyGold/FantasyGold-Core/releases/download/v1.2.5/FantasyGold-1.2.5-Linux-x64.tar.gz"
-TARBALLNAME="FantasyGold-1.2.5-Linux-x64.tar.gz"
-FGCVERSION="1.2.5"
+TARBALLURL="https://github.com/FantasyGold/FantasyGold-Core/releases/download/v1.2.7/FantasyGold-1.2.7-Linux-x64.tar.gz"
+TARBALLNAME="FantasyGold-1.2.7-Linux-x64.tar.gz"
+FGCVERSION="1.2.7"
 
 CHARS="/-\|"
 
